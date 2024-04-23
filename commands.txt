@@ -1,0 +1,28 @@
+DOUBLE_PLAYER
+5 E
+2
+Q 1 1 A1 B2
+P 2 1 D4 C3
+A1 B2 B2 B3
+A1 B2 B3 D1 A1 E1 D4 D4 D5 D5
+---------------------------------------------------------------------
+MULTI_PLAYER
+5 E
+2
+3   //number of players
+Q 1 1 A1 B2 A3
+P 2 2 D4 C3 D1
+B22 B22 B32
+A11 B21 B31 D11 E11 D41 D41 D51 D51
+A11 E41 E51 E21 C32 C31 C42 C42 D32 D11 D42 //3rd arguement in each string is the opponent to whom current user is targetting
+
+
+----------------------------------------------------------------------
+DOUBLE_PLAYER
+5 E
+2
+Q 1 1 A1 B2
+P 2 1 A1 C3
+A1 B2 B2 B3
+A1 B2 B3 D1 E1 D4 D4 D5 D5
+-------------------------------------------------------------------------
